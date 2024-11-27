@@ -5,13 +5,5 @@ export default defineNuxtConfig({
     compatibilityVersion: 4,
   },
 
-  modules: [
-    "@pinia/nuxt",
-    "@nuxt/icon",
-    "@nuxthub/core",
-    "nitro-cloudflare-dev",
-    "nuxt-aos",
-    "@nuxtjs/color-mode",
-    "@nuxtjs/i18n",
-  ],
+  modules: ["@nuxtjs/i18n"],
 });
